@@ -32,10 +32,9 @@ public class MessagePoller implements Closeable {
   public void start() {
     subscription = Observable
         .interval(frequencySeconds, SECONDS, scheduler)
-        .map(tick -> messageService.recentMessages(10))
+        .flatMapIterable(tick -> messageService.recentMessages(10))
         .doOnError(err -> System.err.printf("Caught %s%n", err))
         .retry()
-        .flatMap(Observable::from)
         .filter(message -> message.isFor(recipient))
         .distinct()
         .subscribe(subscriber);
