@@ -22,6 +22,20 @@ class MessagePollerSpec extends Specification {
   @Subject @AutoCleanup
   def messagePoller = new MessagePoller(messageService, pollFrequencySeconds, recipient, subscriber, scheduler)
 
+  def "does not process messages unless subscribed"() {
+    given:
+    messageService.recentMessages(_) >> [message]
+
+    when:
+    scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
+
+    then:
+    0 * subscriber._
+
+    where:
+    message = new Message(nextId(), "Hi", "Cam", recipient)
+  }
+
   def "subscriber can receive a single message"() {
     given:
     messageService.recentMessages(_) >> [message]

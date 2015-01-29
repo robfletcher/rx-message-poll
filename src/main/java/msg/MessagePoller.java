@@ -17,11 +17,18 @@ public class MessagePoller implements Closeable {
   private final Scheduler scheduler;
   private Subscription subscription;
 
-  public MessagePoller(MessageService messageService, long frequencySeconds, String recipient, Action1<Message> subscriber) {
+  public MessagePoller(MessageService messageService,
+                       long frequencySeconds,
+                       String recipient,
+                       Action1<Message> subscriber) {
     this(messageService, frequencySeconds, recipient, subscriber, Schedulers.io());
   }
 
-  MessagePoller(MessageService randomService, long frequencySeconds, String recipient, Action1<Message> subscriber, Scheduler scheduler) {
+  MessagePoller(MessageService randomService,
+                long frequencySeconds,
+                String recipient,
+                Action1<Message> subscriber,
+                Scheduler scheduler) {
     this.messageService = randomService;
     this.frequencySeconds = frequencySeconds;
     this.recipient = recipient;
