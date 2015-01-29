@@ -3,10 +3,13 @@ apply plugin: "application"
 
 repositories { jcenter() }
 dependencies {
-  compile "org.codehaus.groovy:groovy-all:2.4.0"
   compile "com.netflix.rxjava:rxjava-core:0.20.7"
   compile "com.squareup.retrofit:retrofit:1.9.0"
+  testCompile "org.codehaus.groovy:groovy-all:2.4.0"
   testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
 }
 
 mainClassName = "rnd.RandomPoller"
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
