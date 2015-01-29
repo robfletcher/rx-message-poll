@@ -74,30 +74,23 @@ class MessagePollerSpec extends Specification {
 
   def "subscriber can receive multiple messages from multiple polls"() {
     given:
-    messageService.recentMessages(_) >> firstMessages >> secondMessages
+    messageService.recentMessages(_) >> [message1, message2] >> [message3]
 
     and:
     messagePoller.start()
 
     when:
-    scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
+    scheduler.advanceTimeBy(pollFrequencySeconds * 2, SECONDS)
 
     then:
-    1 * subscriber.call(firstMessages[0])
-    1 * subscriber.call(firstMessages[1])
-
-    when:
-    scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
-
-    then:
-    1 * subscriber.call(secondMessages[0])
-    1 * subscriber.call(secondMessages[1])
+    1 * subscriber.call(message1)
+    1 * subscriber.call(message2)
+    1 * subscriber.call(message3)
 
     where:
-    firstMessages = [new Message(nextId(), "Hi", "Cam", recipient),
-                     new Message(nextId(), "Bye", "Cam", recipient)]
-    secondMessages = [new Message(nextId(), "Hi", "Clay", recipient),
-                      new Message(nextId(), "Bye", "Clay", recipient)]
+    message1 = new Message(nextId(), "Hi", "Cam", recipient)
+    message2 = new Message(nextId(), "Bye", "Cam", recipient)
+    message3 = new Message(nextId(), "Hi", "Clay", recipient)
   }
 
   def "messages are filtered by recipient"() {
@@ -145,8 +138,7 @@ class MessagePollerSpec extends Specification {
     messagePoller.start()
 
     when:
-    scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
-    scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
+    scheduler.advanceTimeBy(pollFrequencySeconds * 2, SECONDS)
 
     then:
     1 * subscriber.call(_)
@@ -166,13 +158,10 @@ class MessagePollerSpec extends Specification {
     messagePoller.start()
 
     when:
-    3.times {
-      scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
-    }
+    scheduler.advanceTimeBy(pollFrequencySeconds * 3, SECONDS)
 
     then:
-    1 * subscriber.call(message1)
-    1 * subscriber.call(message2)
+    2 * subscriber.call(_)
 
     where:
     message1 = new Message(nextId(), "Hi", "Tomas", recipient)
