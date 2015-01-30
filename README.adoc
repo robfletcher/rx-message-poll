@@ -1,0 +1,33 @@
+# rx-message-poll
+
+An example of using RxJava to periodically poll a remote service.
+Demonstrated:
+
+* The service returns a JSON array of data which we coalesce into a stream of individual items.
+* Filtering streams.
+* Handling connection errors.
+* De-duplicating data.
+* Unit testing the polling mechanism.
+
+The code is written in Java 8 and the tests with http://docs.spockframework.org/[Spock]. The example relies on https://github.com/ReactiveX/RxJava[RxJava], http://square.github.io/retrofit/[Retrofit] and the https://www.mockaroo.com/api/docs[Mockaroo] web service.
+
+## Running the example
+
+----
+./gradlew run
+----
+
+The example requires an internet connection and an API key for Mockaroo. Create a `gradle.properties` file that looks like this:
+
+[source,properties]
+----
+mockaroo.api.key=xxxxxx
+----
+
+## Running the tests
+
+----
+./gradlew test
+----
+
+The tests do not require any internet connection or access to Mockaroo.
