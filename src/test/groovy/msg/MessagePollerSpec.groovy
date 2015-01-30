@@ -64,8 +64,10 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
 
     then:
-    1 * subscriber.call(messages[0])
-    1 * subscriber.call(messages[1])
+    with(subscriber) {
+      1 * call(messages[0])
+      1 * call(messages[1])
+    }
 
     where:
     messages = [new Message(nextId(), "Hi", "Cam", recipient),
@@ -83,9 +85,11 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds * 2, SECONDS)
 
     then:
-    1 * subscriber.call(message1)
-    1 * subscriber.call(message2)
-    1 * subscriber.call(message3)
+    with(subscriber) {
+      1 * call(message1)
+      1 * call(message2)
+      1 * call(message3)
+    }
 
     where:
     message1 = new Message(nextId(), "Hi", "Cam", recipient)
@@ -104,8 +108,10 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
 
     then:
-    2 * subscriber.call({ it.to == recipient })
-    0 * subscriber.call({ it.to != recipient })
+    with(subscriber) {
+      2 * call({ it.to == recipient })
+      0 * call({ it.to != recipient })
+    }
 
     where:
     messages = [new Message(nextId(), "Hi", "Tomas", recipient),
