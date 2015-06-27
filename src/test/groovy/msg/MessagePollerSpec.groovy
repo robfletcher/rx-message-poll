@@ -1,6 +1,7 @@
 package msg
 
 import retrofit.MockHttpException
+import rx.Observable
 import rx.functions.Action1
 import rx.schedulers.Schedulers
 import spock.lang.AutoCleanup
@@ -9,6 +10,7 @@ import spock.lang.Specification
 import spock.lang.Subject
 
 import static java.util.concurrent.TimeUnit.SECONDS
+import static rx.Observable.just
 
 class MessagePollerSpec extends Specification {
 
@@ -38,7 +40,7 @@ class MessagePollerSpec extends Specification {
 
   def "subscriber can receive a single message"() {
     given:
-    messageService.recentMessages(_) >> [message]
+    messageService.recentMessages(_) >> just([message])
 
     and:
     messagePoller.start()
@@ -55,7 +57,7 @@ class MessagePollerSpec extends Specification {
 
   def "subscriber can receive multiple messages from a single poll"() {
     given:
-    messageService.recentMessages(_) >> messages
+    messageService.recentMessages(_) >> just(messages)
 
     and:
     messagePoller.start()
@@ -76,7 +78,7 @@ class MessagePollerSpec extends Specification {
 
   def "subscriber can receive multiple messages from multiple polls"() {
     given:
-    messageService.recentMessages(_) >> [message1, message2] >> [message3]
+    messageService.recentMessages(_) >> just([message1, message2], [message3])
 
     and:
     messagePoller.start()
@@ -99,7 +101,7 @@ class MessagePollerSpec extends Specification {
 
   def "messages are filtered by recipient"() {
     given:
-    messageService.recentMessages(_) >> messages
+    messageService.recentMessages(_) >> just(messages)
 
     and:
     messagePoller.start()
@@ -121,7 +123,7 @@ class MessagePollerSpec extends Specification {
 
   def "duplicate messages are filtered out in a single poll"() {
     given:
-    messageService.recentMessages(_) >> [message] * 2
+    messageService.recentMessages(_) >> just([message] * 2)
 
     and:
     messagePoller.start()
@@ -138,7 +140,7 @@ class MessagePollerSpec extends Specification {
 
   def "duplicate messages are filtered out on subsequent polls"() {
     given:
-    messageService.recentMessages(_) >> [message]
+    messageService.recentMessages(_) >> just([message])
 
     and:
     messagePoller.start()
@@ -156,9 +158,9 @@ class MessagePollerSpec extends Specification {
   def "polling continues after an error from the message service"() {
     given:
     messageService.recentMessages(_) >>
-        [message1] >>
+        just([message1]) >>
         { throw MockHttpException.newInternalError(null) } >>
-        [message2]
+        just([message2])
 
     and:
     messagePoller.start()
