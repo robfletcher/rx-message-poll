@@ -1,8 +1,19 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.200"
+  }
+}
+
+apply plugin: "kotlin"
 apply plugin: "groovy"
 apply plugin: "application"
 
 repositories { jcenter() }
 dependencies {
+  compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
   compile "com.netflix.rxjava:rxjava-core:0.20.7"
   compile "com.squareup.retrofit:retrofit:1.9.0"
   testCompile "org.codehaus.groovy:groovy-all:2.4.0"
@@ -12,7 +23,7 @@ dependencies {
 
 ext.mockarooApiKey = project.hasProperty("mockaroo.api.key") ? project.getProperty("mockaroo.api.key") : System.getenv("MOCKAROO_API_KEY") ?: ""
 
-mainClassName = "msg.Main"
+mainClassName = "msg.MsgPackage"
 applicationDefaultJvmArgs = ["-Dmockaroo.api.key=$mockarooApiKey"]
 
 sourceCompatibility = "1.8"

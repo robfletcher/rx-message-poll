@@ -1,5 +1,6 @@
 package msg
 
+import kotlin.Function1
 import retrofit.MockHttpException
 import rx.Observable
 import rx.functions.Action1
@@ -15,7 +16,7 @@ import static rx.Observable.just
 class MessagePollerSpec extends Specification {
 
   def messageService = Stub(MessageService)
-  def subscriber = Mock(Action1)
+  def subscriber = Mock(Function1)
   @Shared pollFrequencySeconds = 1
   @Shared recipient = "Rob"
   @Shared scheduler = Schedulers.test()
@@ -49,7 +50,7 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
 
     then:
-    1 * subscriber.call(message)
+    1 * subscriber.invoke(message)
 
     where:
     message = new Message(nextId(), "Hi", "Cam", recipient)
@@ -67,8 +68,8 @@ class MessagePollerSpec extends Specification {
 
     then:
     with(subscriber) {
-      1 * call(messages[0])
-      1 * call(messages[1])
+      1 * invoke(messages[0])
+      1 * invoke(messages[1])
     }
 
     where:
@@ -88,9 +89,9 @@ class MessagePollerSpec extends Specification {
 
     then:
     with(subscriber) {
-      1 * call(message1)
-      1 * call(message2)
-      1 * call(message3)
+      1 * invoke(message1)
+      1 * invoke(message2)
+      1 * invoke(message3)
     }
 
     where:
@@ -111,8 +112,8 @@ class MessagePollerSpec extends Specification {
 
     then:
     with(subscriber) {
-      2 * call({ it.to == recipient })
-      0 * call({ it.to != recipient })
+      2 * invoke({ it.to == recipient })
+      0 * invoke({ it.to != recipient })
     }
 
     where:
@@ -132,7 +133,7 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds, SECONDS)
 
     then:
-    1 * subscriber.call(_)
+    1 * subscriber.invoke(_)
 
     where:
     message = new Message(nextId(), "Hi", "Tomas", recipient)
@@ -149,7 +150,7 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds * 2, SECONDS)
 
     then:
-    1 * subscriber.call(_)
+    1 * subscriber.invoke(_)
 
     where:
     message = new Message(nextId(), "Hi", "Tomas", recipient)
@@ -169,7 +170,7 @@ class MessagePollerSpec extends Specification {
     scheduler.advanceTimeBy(pollFrequencySeconds * 3, SECONDS)
 
     then:
-    2 * subscriber.call(_)
+    2 * subscriber.invoke(_)
 
     where:
     message1 = new Message(nextId(), "Hi", "Tomas", recipient)
