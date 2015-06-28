@@ -16,8 +16,7 @@ dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
   compile "com.netflix.rxjava:rxjava-core:0.20.7"
   compile "com.squareup.retrofit:retrofit:1.9.0"
-  testCompile "org.codehaus.groovy:groovy-all:2.4.0"
-  testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
+  testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
   testCompile "com.squareup.retrofit:retrofit-mock:1.9.0"
 }
 
