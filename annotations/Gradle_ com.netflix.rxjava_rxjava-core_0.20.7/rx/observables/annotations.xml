@@ -1,0 +1,26 @@
+<root>
+    <item name='rx.observables.BlockingObservable java.lang.Iterable&lt;T&gt; latest()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable java.lang.Iterable&lt;T&gt; toIterable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable java.lang.Iterable&lt;T&gt; mostRecent(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable rx.observables.BlockingObservable&lt;T&gt; from(rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable java.util.concurrent.Future&lt;T&gt; toFuture()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable java.util.Iterator&lt;T&gt; getIterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.BlockingObservable java.lang.Iterable&lt;T&gt; next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.observables.GroupedObservable rx.observables.GroupedObservable&lt;K,T&gt; from(K, rx.Observable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,8 @@
+<root>
+    <item name='rx.plugins.RxJavaPlugins rx.plugins.RxJavaPlugins getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.plugins.RxJavaSchedulersHook rx.plugins.RxJavaSchedulersHook getDefaultInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

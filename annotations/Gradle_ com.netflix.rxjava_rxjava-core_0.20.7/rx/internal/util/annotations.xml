@@ -1,0 +1,29 @@
+<root>
+    <item name='rx.internal.util.ScalarSynchronousObservable rx.internal.util.ScalarSynchronousObservable&lt;T&gt; create(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.RxThreadFactory java.lang.Thread newThread(java.lang.Runnable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.RxRingBuffer boolean accept(java.lang.Object, rx.Observer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.SubscriptionIndexedRingBuffer SubscriptionIndexedRingBuffer(T...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.RxRingBuffer rx.internal.util.RxRingBuffer getSpmcInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.RxRingBuffer rx.internal.util.RxRingBuffer getSpscInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.ObjectPool T createObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.util.RxRingBuffer java.lang.Throwable asError(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

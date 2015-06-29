@@ -1,0 +1,86 @@
+<root>
+    <item name='rx.subjects.BehaviorSubject rx.subjects.BehaviorSubject&lt;T&gt; create(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; createWithTimeAndSize(long, java.util.concurrent.TimeUnit, int, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.SubjectSubscriptionManager.State rx.subjects.SubjectSubscriptionManager.State remove(rx.subjects.SubjectSubscriptionManager.SubjectObserver)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.SubjectSubscriptionManager.SubjectObserver void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.PublishSubject void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.AsyncSubject void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.BehaviorSubject void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; createWithTime(long, java.util.concurrent.TimeUnit, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.TestSubject TestSubject(rx.Observable.OnSubscribe&lt;T&gt;, rx.subjects.SubjectSubscriptionManager&lt;T&gt;, rx.schedulers.TestScheduler) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; create(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.SubjectSubscriptionManager.State rx.subjects.SubjectSubscriptionManager.State add(rx.subjects.SubjectSubscriptionManager.SubjectObserver)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.AsyncSubject rx.subjects.AsyncSubject&lt;T&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.TestSubject rx.subjects.TestSubject&lt;T&gt; create(rx.schedulers.TestScheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.PublishSubject rx.subjects.PublishSubject&lt;T&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; createWithTimeAndSize(long, java.util.concurrent.TimeUnit, int, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; createWithSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.TestSubject void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.subjects.TestSubject rx.subjects.TestSubject&lt;T&gt; create(rx.schedulers.TestScheduler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.BehaviorSubject rx.subjects.BehaviorSubject&lt;T&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subjects.ReplaySubject rx.subjects.ReplaySubject&lt;T&gt; createWithTime(long, java.util.concurrent.TimeUnit, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

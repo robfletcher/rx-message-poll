@@ -1,0 +1,200 @@
+<root>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError unexpectedError(java.lang.String, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addPathParam(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setErrorHandler(retrofit.ErrorHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addEncodedQueryParam(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RetrofitError.Kind UNEXPECTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addQueryParam(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RequestInterceptor NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError httpError(java.lang.String, retrofit.client.Response, retrofit.converter.Converter, java.lang.reflect.Type)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setErrorHandler(retrofit.ErrorHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.Endpoints retrofit.Endpoint newFixedEndpoint(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setClient(retrofit.client.Client.Provider)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Log NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.LogLevel BASIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setEndpoint(retrofit.Endpoint) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setLog(retrofit.RestAdapter.Log)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setClient(retrofit.client.Client.Provider) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addHeader(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RestAdapter.Log void log(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RetrofitError.Kind CONVERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addPathParam(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setClient(retrofit.client.Client)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setRequestInterceptor(retrofit.RequestInterceptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setEndpoint(retrofit.Endpoint)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.LogLevel NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError conversionError(java.lang.String, retrofit.client.Response, retrofit.converter.Converter, java.lang.reflect.Type, retrofit.converter.ConversionException)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setEndpoint(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setClient(retrofit.client.Client) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setEndpoint(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addEncodedPathParam(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.Endpoints retrofit.Endpoint newFixedEndpoint(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter T create(java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setLogLevel(retrofit.RestAdapter.LogLevel) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setExecutors(java.util.concurrent.Executor, java.util.concurrent.Executor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError networkError(java.lang.String, java.io.IOException)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setExecutors(java.util.concurrent.Executor, java.util.concurrent.Executor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setLogLevel(retrofit.RestAdapter.LogLevel)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setLog(retrofit.RestAdapter.Log) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setRequestInterceptor(retrofit.RequestInterceptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addEncodedPathParam(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RetrofitError.Kind HTTP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.LogLevel HEADERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.LogLevel FULL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError httpError(java.lang.String, retrofit.client.Response, retrofit.converter.Converter, java.lang.reflect.Type) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setConverter(retrofit.converter.Converter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.ErrorHandler DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError networkError(java.lang.String, java.io.IOException) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.LogLevel HEADERS_AND_ARGS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError unexpectedError(java.lang.String, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addEncodedQueryParam(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setProfiler(retrofit.Profiler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError.Kind NETWORK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RequestInterceptor.RequestFacade void addQueryParam(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setProfiler(retrofit.Profiler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RestAdapter.Builder retrofit.RestAdapter.Builder setConverter(retrofit.converter.Converter)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.RetrofitError retrofit.RetrofitError conversionError(java.lang.String, retrofit.client.Response, retrofit.converter.Converter, java.lang.reflect.Type, retrofit.converter.ConversionException) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

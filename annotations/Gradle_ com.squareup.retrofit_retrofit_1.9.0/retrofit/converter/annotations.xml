@@ -1,0 +1,20 @@
+<root>
+    <item name='retrofit.converter.GsonConverter retrofit.mime.TypedOutput toBody(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.converter.Converter java.lang.Object fromBody(retrofit.mime.TypedInput, java.lang.reflect.Type) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.converter.GsonConverter java.lang.Object fromBody(retrofit.mime.TypedInput, java.lang.reflect.Type) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.converter.Converter retrofit.mime.TypedOutput toBody(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

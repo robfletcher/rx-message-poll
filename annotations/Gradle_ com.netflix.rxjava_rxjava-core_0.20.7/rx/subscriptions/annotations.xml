@@ -1,0 +1,32 @@
+<root>
+    <item name='rx.subscriptions.BooleanSubscription rx.subscriptions.BooleanSubscription create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.RefCountSubscription RefCountSubscription(rx.Subscription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.MultipleAssignmentSubscription void set(rx.Subscription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.Subscriptions rx.Subscription empty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.BooleanSubscription rx.subscriptions.BooleanSubscription create(rx.functions.Action0)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.Subscriptions rx.Subscription create(rx.functions.Action0)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.Subscriptions rx.Subscription from(java.util.concurrent.Future&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.RefCountSubscription rx.Subscription get()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.SerialSubscription void set(rx.Subscription) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.subscriptions.Subscriptions rx.subscriptions.CompositeSubscription from(rx.Subscription...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

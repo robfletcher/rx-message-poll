@@ -1,0 +1,11 @@
+<root>
+    <item name='retrofit.appengine.UrlFetchClient retrofit.client.Response execute(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.appengine.UrlFetchClient com.google.appengine.api.urlfetch.HTTPResponse execute(com.google.appengine.api.urlfetch.URLFetchService, com.google.appengine.api.urlfetch.HTTPRequest) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.appengine.UrlFetchClient retrofit.client.Response execute(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

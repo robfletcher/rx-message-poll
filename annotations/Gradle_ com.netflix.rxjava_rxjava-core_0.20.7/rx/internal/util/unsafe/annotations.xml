@@ -1,0 +1,8 @@
+<root>
+    <item name='rx.internal.util.unsafe.ConcurrentCircularArrayQueue buffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.util.unsafe.ConcurrentSequencedCircularArrayQueue sequenceBuffer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

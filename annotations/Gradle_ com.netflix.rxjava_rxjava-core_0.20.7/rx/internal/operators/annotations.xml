@@ -1,0 +1,1202 @@
+<root>
+    <item name='rx.internal.operators.OperatorSequenceEqual rx.Observable&lt;java.lang.Boolean&gt; sequenceEqual(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.functions.Func2&lt;? super T,? super T,java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithTime java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorUnsubscribeOn rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFilter java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelay void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinctUntilChanged java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFilter java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSequenceEqual rx.Observable&lt;java.lang.Boolean&gt; sequenceEqual(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.functions.Func2&lt;? super T,? super T,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorToIterator java.util.Iterator&lt;T&gt; toIterator(rx.Observable&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeJoin void call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLastTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFinally rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnEach rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinctUntilChanged java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLastTimed java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinct java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;, long, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithStartEndObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil.GroupSubject void onNext(R) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableList rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableList rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorUnsubscribeOn rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnEach rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinct java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeoutWithSelector rx.Subscriber call(rx.Subscriber) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeUntil java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeFromIterable void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFinally rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap.DefaultToMapFactory java.util.Map&lt;K,V&gt; call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallel java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLastTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDefer void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeUsing void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite java.lang.Object error(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeUntil java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeoutWithSelector rx.Subscriber call(rx.Subscriber)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapPair rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;? extends R&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithStartEndObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithStartEndObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeTimerOnce void call(rx.Subscriber&lt;? super java.lang.Long&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite java.lang.Object next(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; retry(rx.Observable&lt;T&gt;, rx.functions.Func1&lt;? super rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;,? extends rx.Observable&lt;?&gt;&gt;, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorScan rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeMulticastSelector void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnEach java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFinally java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapPair rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;? extends R&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLast java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeFromIterable void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallel java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSingle rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorScan rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFilter rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnEach java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFilter rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSingle rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLast java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorFinally java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(java.lang.Iterable&lt;? extends rx.Observable&lt;? extends T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorConcat java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSubscribeOn java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeGroupJoin void call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorElementAt rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorConcat rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinctUntilChanged rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorThrottleFirst OperatorThrottleFirst(long, java.util.concurrent.TimeUnit, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelaySubscription void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureBuffer java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSingle java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeUsing void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorRetryWithPredicate java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupBy rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.observables.GroupedObservable&lt;K,R&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithSelector rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorUnsubscribeOn java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAll java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZipIterable rx.Subscriber&lt;? super T1&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.Map&lt;K,java.util.Collection&lt;V&gt;&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithSelector java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeToObservableFuture rx.Observable.OnSubscribe&lt;T&gt; toObservableFuture(java.util.concurrent.Future&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLastTimed java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite boolean accept(rx.Observer&lt;? super T&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeGroupJoin void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnExceptionResumeNextViaObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipTimed java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinct rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZip java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorThrottleFirst rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimestamp java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap.DefaultToMultimapFactory java.util.Map&lt;K,java.util.Collection&lt;V&gt;&gt; call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorElementAt java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMap java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorNext java.lang.Iterable&lt;T&gt; next(rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnExceptionResumeNextViaObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelaySubscription void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithTime java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;, rx.functions.Func1&lt;? super rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;,? extends rx.Observable&lt;?&gt;&gt;, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallel rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZip rx.Subscriber&lt;? super rx.Observable[]&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSequenceEqual rx.Observable&lt;java.lang.Boolean&gt; sequenceEqual(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.functions.Func2&lt;? super T,? super T,java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSwitch rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorScan java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRange void call(rx.Subscriber&lt;? super java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZipIterable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorThrottleFirst java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMerge java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDefaultIfEmpty java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithSize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSerialize java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDefer void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorThrottleFirst java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkip java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupBy java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTake rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSingleObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableSortedList java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupBy java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorThrottleFirst rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSingleObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableSortedList java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelay void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorReplay rx.Observable.OnSubscribe&lt;T&gt; subscriberOf(rx.Observable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSubscribeOn rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnUnsubscribe rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureBuffer rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeout rx.Subscriber call(rx.Subscriber) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureBuffer rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithTime java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeJoin void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeout rx.Subscriber call(rx.Subscriber)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMaterialize java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAll rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithStartEndObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapPair rx.functions.Func1&lt;T,rx.Observable&lt;U&gt;&gt; convertSelector(rx.functions.Func1&lt;? super T,? extends java.lang.Iterable&lt;? extends U&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeWhile java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorMostRecent java.lang.Iterable&lt;T&gt; mostRecent(rx.Observable&lt;? extends T&gt;, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDematerialize java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSubscribeOn rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMerge rx.Subscriber&lt;rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithStartEndObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureBuffer java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RedoFinite rx.Observable&lt;?&gt; call(rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RedoFinite java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallel rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMergeMaxConcurrent java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeCombineLatest void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureDrop rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil.GroupSubject rx.observables.GroupedObservable&lt;K,R&gt; toObservable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTake java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallel OperatorParallel(rx.functions.Func1&lt;rx.Observable&lt;T&gt;,rx.Observable&lt;R&gt;&gt;, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorCast java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorConcat rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeCombineLatest OnSubscribeCombineLatest(java.util.List&lt;? extends rx.Observable&lt;? extends T&gt;&gt;, rx.functions.FuncN&lt;? extends R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RetryWithPredicate java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSingle java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeWhile rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite java.lang.Throwable getError(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDefaultIfEmpty rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLastTimed OperatorSkipLastTimed(long, java.util.concurrent.TimeUnit, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSerialize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithSelector rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; retry(rx.Observable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMergeMaxConcurrent rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipTimed java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithTime rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinctUntilChanged rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTake rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDistinct rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorReturn java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaFunction java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite rx.internal.operators.NotificationLite&lt;T&gt; instance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeTimerPeriodically void call(rx.Subscriber&lt;? super java.lang.Long&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZip rx.Subscriber&lt;? super rx.Observable[]&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BufferUntilSubscriber void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorParallelMerge rx.Observable&lt;rx.Observable&lt;T&gt;&gt; parallelMerge(rx.Observable&lt;rx.Observable&lt;T&gt;&gt;, int, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorToIterator java.util.Iterator&lt;T&gt; toIterator(rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDebounceWithSelector java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaFunction rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallelMerge rx.Observable&lt;rx.Observable&lt;T&gt;&gt; parallelMerge(rx.Observable&lt;rx.Observable&lt;T&gt;&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorRetryWithPredicate java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorReturn rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorConcat java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapPair java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.Map&lt;K,V&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorFlatMap java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAny rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMaterialize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Notification&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RetryWithPredicate rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt; call(rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorFlatMap java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeTimed java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAny rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorToFuture java.util.concurrent.Future&lt;T&gt; toFuture(rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimestamp rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.schedulers.Timestamped&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallelMerge rx.Observable&lt;rx.Observable&lt;T&gt;&gt; parallelMerge(rx.Observable&lt;rx.Observable&lt;T&gt;&gt;, int, rx.Scheduler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeCombineLatest void call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAny java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableSortedList rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorToFuture java.util.concurrent.Future&lt;T&gt; toFuture(rx.Observable&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimestamp rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.schedulers.Timestamped&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMaterialize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Notification&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap.DefaultMultimapCollectionFactory java.util.Collection&lt;V&gt; call(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnSubscribe java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorParallelMerge rx.Observable&lt;rx.Observable&lt;T&gt;&gt; parallelMerge(rx.Observable&lt;rx.Observable&lt;T&gt;&gt;, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeInterval java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDematerialize rx.Subscriber&lt;? super rx.Notification&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorCast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSingleObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSwitch java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeInterval java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorCast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableSortedList rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSingleObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDematerialize rx.Subscriber&lt;? super rx.Notification&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSwitch java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureDrop java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSize java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSize java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite rx.Notification.Kind kind(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureDrop java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithStartEndObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithStartEndObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite rx.Notification.Kind kind(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelayWithSelector void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipUntil java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap.DefaultToMultimapFactory java.lang.Object call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeTimerOnce void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapPair java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithSize java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeCache void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.observables.GroupedObservable&lt;K,R&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapNotification java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTake java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnBackpressureDrop rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMergeMaxConcurrent java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorReturn rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeTimed rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDefaultIfEmpty rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMergeMaxConcurrent rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorCast java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeInterval rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.schedulers.TimeInterval&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;, rx.functions.Func1&lt;? super rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;,? extends rx.Observable&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeWhile rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RedoFinite rx.Observable&lt;?&gt; call(rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnUnsubscribe java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipWhile java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RedoFinite java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLast java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkip rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; redo(rx.Observable&lt;T&gt;, rx.functions.Func1&lt;? super rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;,? extends rx.Observable&lt;?&gt;&gt;, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorRetryWithPredicate rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithTime java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithTime java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeTimerPeriodically void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelayWithSelector void call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; retry(rx.Observable&lt;T&gt;, rx.functions.Func1&lt;? super rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;,? extends rx.Observable&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaFunction java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RetryWithPredicate java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAny java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeMulticastSelector void call(rx.Subscriber&lt;? super TResult&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDefaultIfEmpty java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorReplay rx.subjects.Subject&lt;T,T&gt; createScheduledSubject(rx.subjects.Subject&lt;T,T&gt;, rx.Scheduler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeTimed java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.Map&lt;K,V&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZipIterable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipWhile rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorResumeNextViaFunction rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo.RetryWithPredicate rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt; call(rx.Observable&lt;? extends rx.Notification&lt;?&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorFlatMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeDelay.Emitter void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap.DefaultMultimapCollectionFactory java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorSkip java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMap java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMerge java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BlockingOperatorLatest java.lang.Iterable&lt;T&gt; latest(rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableList java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorReturn java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRedo rx.Observable&lt;T&gt; repeat(rx.Observable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorReplay rx.subjects.Subject&lt;T,T&gt; createScheduledSubject(rx.subjects.Subject&lt;T,T&gt;, rx.Scheduler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToObservableList java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap.DefaultMultimapCollectionFactory java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLast rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.BufferUntilSubscriber rx.internal.operators.BufferUntilSubscriber&lt;T&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeToObservableFuture rx.Observable.OnSubscribe&lt;T&gt; toObservableFuture(java.util.concurrent.Future&lt;? extends T&gt;, long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDematerialize java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRefCount void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap.DefaultToMapFactory java.lang.Object call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSerialize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAll java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapNotification rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed OperatorTakeLastTimed(long, java.util.concurrent.TimeUnit, rx.Scheduler) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSerialize java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSampleWithTime java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMerge rx.Subscriber&lt;rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAll rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithSize rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.List&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnUnsubscribe rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapNotification rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeWhile java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipWhile java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorBufferWithTime java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorToMap java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZipIterable rx.Subscriber&lt;? super T1&gt; call(rx.Subscriber&lt;? super R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithStartEndObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipLast java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorUnsubscribeOn java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMaterialize java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorGroupByUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.observables.GroupedObservable&lt;K,R&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorElementAt rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorAsObservable java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithTime java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorDoOnUnsubscribe java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeAmb rx.Observable.OnSubscribe&lt;T&gt; amb(rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;, rx.Observable&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSubscribeOn java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OnSubscribeRange void call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkip rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorRetryWithPredicate rx.Subscriber&lt;? super rx.Observable&lt;T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorReplay.SubjectWrapper void onNext(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeUntil rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorObserveOn java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.internal.operators.OperatorToMultimap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super java.util.Map&lt;K,java.util.Collection&lt;V&gt;&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSwitch rx.Subscriber&lt;? super rx.Observable&lt;? extends T&gt;&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimestamp java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnExceptionResumeNextViaObservable rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTimeInterval rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super rx.schedulers.TimeInterval&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnErrorFlatMap rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorScan java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorZip java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorElementAt java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.NotificationLite java.lang.Object completed()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorMapNotification java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorOnExceptionResumeNextViaObservable java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipWhile rx.Subscriber&lt;? super T&gt; call(rx.Subscriber&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorTakeLastTimed OperatorTakeLastTimed(int, long, java.util.concurrent.TimeUnit, rx.Scheduler) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipUntil java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorWindowWithSize java.lang.Object call(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.internal.operators.OperatorSkipWhile rx.functions.Func2&lt;T,java.lang.Integer,java.lang.Boolean&gt; toPredicate2(rx.functions.Func1&lt;? super T,java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

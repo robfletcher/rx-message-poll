@@ -1,0 +1,101 @@
+<root>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput void addField(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput void addField(java.lang.String, boolean, java.lang.String, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput void addField(java.lang.String, boolean, java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void addPart(java.lang.String, retrofit.mime.TypedOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void addPart(java.lang.String, java.lang.String, retrofit.mime.TypedOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void addPart(java.lang.String, java.lang.String, retrofit.mime.TypedOutput) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile TypedFile(java.lang.String, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile java.lang.String mimeType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedString TypedString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput void writeTo(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile void writeTo(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void addPart(java.lang.String, retrofit.mime.TypedOutput) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedByteArray void writeTo(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile java.io.File file()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedInput java.io.InputStream in()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput java.lang.String mimeType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.FormUrlEncodedTypedOutput void addField(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput DEFAULT_TRANSFER_ENCODING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedByteArray java.lang.String mimeType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void writeTo(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.MultipartTypedOutput void addPart(java.lang.String, java.lang.String, retrofit.mime.TypedOutput) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedByteArray java.io.InputStream in()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile TypedFile(java.lang.String, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile java.io.InputStream in()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedFile void moveTo(retrofit.mime.TypedFile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedOutput void writeTo(java.io.OutputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.mime.TypedByteArray byte[] getBytes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedByteArray TypedByteArray(java.lang.String, byte[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.mime.TypedOutput java.lang.String mimeType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,35 @@
+<root>
+    <item name='rx.exceptions.Exceptions void addCause(java.lang.Throwable, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.CompositeException CompositeException(java.lang.String, java.util.Collection&lt;? extends java.lang.Throwable&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorThrowable rx.exceptions.OnErrorThrowable from(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.CompositeException CompositeException(java.util.Collection&lt;? extends java.lang.Throwable&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorThrowable rx.exceptions.OnErrorThrowable from(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorThrowable java.lang.Throwable addValueAsLastCause(java.lang.Throwable, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorFailedException OnErrorFailedException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.Exceptions java.lang.Throwable getFinalCause(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorThrowable java.lang.Throwable addValueAsLastCause(java.lang.Throwable, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.OnErrorNotImplementedException OnErrorNotImplementedException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.exceptions.Exceptions java.lang.Throwable getFinalCause(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

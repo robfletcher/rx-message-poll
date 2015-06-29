@@ -1,0 +1,41 @@
+<root>
+    <item name='rx.schedulers.Schedulers rx.Scheduler newThread()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.TestScheduler void advanceTimeBy(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.Scheduler trampoline()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.TestScheduler void advanceTimeTo(long, java.util.concurrent.TimeUnit) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.ImmediateScheduler rx.Scheduler.Worker createWorker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.Scheduler immediate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.NewThreadScheduler rx.Scheduler.Worker createWorker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.Scheduler io()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.schedulers.TestScheduler test()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.Scheduler from(java.util.concurrent.Executor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.TrampolineScheduler rx.Scheduler.Worker createWorker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.Schedulers rx.Scheduler computation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.schedulers.TestScheduler rx.Scheduler.Worker createWorker()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

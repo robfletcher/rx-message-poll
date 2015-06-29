@@ -1,0 +1,71 @@
+<root>
+    <item name='retrofit.client.UrlConnectionClient java.net.HttpURLConnection openConnection(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Client retrofit.client.Response execute(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.client.OkClient OkClient(com.squareup.okhttp.OkHttpClient) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.UrlConnectionClient retrofit.client.Response execute(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Request Request(java.lang.String, java.lang.String, java.util.List&lt;retrofit.client.Header&gt;, retrofit.mime.TypedOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Response Response(java.lang.String, int, java.lang.String, java.util.List&lt;retrofit.client.Header&gt;, retrofit.mime.TypedInput) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Request Request(java.lang.String, java.lang.String, java.util.List&lt;retrofit.client.Header&gt;, retrofit.mime.TypedOutput) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Request java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Response Response(java.lang.String, int, java.lang.String, java.util.List&lt;retrofit.client.Header&gt;, retrofit.mime.TypedInput) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Request java.lang.String getUrl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.UrlConnectionClient java.net.HttpURLConnection openConnection(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.ApacheClient retrofit.client.Response execute(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Response java.lang.String getUrl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.OkClient retrofit.client.Response execute(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Client retrofit.client.Response execute(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='retrofit.client.Response Response(java.lang.String, int, java.lang.String, java.util.List&lt;retrofit.client.Header&gt;, retrofit.mime.TypedInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.ApacheClient org.apache.http.HttpResponse execute(org.apache.http.client.HttpClient, org.apache.http.client.methods.HttpUriRequest) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.Response java.lang.String getReason()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.OkClient retrofit.client.Response execute(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.ApacheClient retrofit.client.Response execute(retrofit.client.Request)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='retrofit.client.UrlConnectionClient retrofit.client.Response execute(retrofit.client.Request) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

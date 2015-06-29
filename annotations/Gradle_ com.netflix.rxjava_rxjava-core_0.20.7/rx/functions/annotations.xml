@@ -1,0 +1,215 @@
+<root>
+    <item name='rx.functions.Action2 void call(T1, T2) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func8&lt;T1,T2,T3,T4,T5,T6,T7,T8,R&gt; toFunc(rx.functions.Action8&lt;T1,T2,T3,T4,T5,T6,T7,T8&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func9&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,R&gt; toFunc(rx.functions.Action9&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Not java.lang.Object call(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Func2 R call(T1, T2) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func4&lt;T1,T2,T3,T4,java.lang.Void&gt; toFunc(rx.functions.Action4&lt;T1,T2,T3,T4&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func4&lt;T1,T2,T3,T4,R&gt; toFunc(rx.functions.Action4&lt;T1,T2,T3,T4&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Action1&lt;java.lang.Throwable&gt; onErrorFrom(rx.Observer&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.Func1&lt;T,T&gt; identity()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func8&lt;T1,T2,T3,T4,T5,T6,T7,T8,java.lang.Void&gt; toFunc(rx.functions.Action8&lt;T1,T2,T3,T4,T5,T6,T7,T8&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.FuncN R call(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Func1 R call(T1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func5&lt;T1,T2,T3,T4,T5,java.lang.Void&gt; toFunc(rx.functions.Action5&lt;T1,T2,T3,T4,T5&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func5&lt;T1,T2,T3,T4,T5,R&gt; toFunc(rx.functions.Action5&lt;T1,T2,T3,T4,T5&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Action2 void call(T1, T2) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.FuncN&lt;R&gt; toFunc(rx.functions.ActionN, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;java.lang.Void&gt; fromAction(rx.functions.Action2&lt;? super T0,? super T1&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Func2 R call(T1, T2) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;java.lang.Void&gt; fromAction(rx.functions.Action0)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func0&lt;R&gt; toFunc(rx.functions.Action0, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Action4 void call(T1, T2, T3, T4) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;java.lang.Void&gt; fromAction(rx.functions.Action3&lt;? super T0,? super T1,? super T2&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func0&lt;? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Action0 onCompletedFrom(rx.Observer&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func2&lt;? super T0,? super T1,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.Func1&lt;T,java.lang.Boolean&gt; not(rx.functions.Func1&lt;? super T,java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;java.lang.Void&gt; fromAction(rx.functions.Action1&lt;? super T0&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func3&lt;T1,T2,T3,java.lang.Void&gt; toFunc(rx.functions.Action3&lt;T1,T2,T3&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Func4 R call(T1, T2, T3, T4) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func6&lt;T1,T2,T3,T4,T5,T6,java.lang.Void&gt; toFunc(rx.functions.Action6&lt;T1,T2,T3,T4,T5,T6&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.Func1&lt;? super T,java.lang.Boolean&gt; alwaysTrue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Actions.EmptyAction&lt;T0,T1,T2,T3,T4,T5,T6,T7,T8,T9&gt; empty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func3&lt;? super T0,? super T1,? super T2,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Action1 void call(T1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func3&lt;T1,T2,T3,R&gt; toFunc(rx.functions.Action3&lt;T1,T2,T3&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func1&lt;? super T0,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func1&lt;T1,R&gt; toFunc(rx.functions.Action1&lt;T1&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func5&lt;? super T0,? super T1,? super T2,? super T3,? super T4,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.ActionN void call(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func2&lt;T1,T2,R&gt; toFunc(rx.functions.Action2&lt;T1,T2&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func7&lt;T1,T2,T3,T4,T5,T6,T7,java.lang.Void&gt; toFunc(rx.functions.Action7&lt;T1,T2,T3,T4,T5,T6,T7&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func7&lt;? super T0,? super T1,? super T2,? super T3,? super T4,? super T5,? super T6,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func1&lt;T1,java.lang.Void&gt; toFunc(rx.functions.Action1&lt;T1&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func6&lt;? super T0,? super T1,? super T2,? super T3,? super T4,? super T5,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Action3 void call(T1, T2, T3) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func7&lt;T1,T2,T3,T4,T5,T6,T7,R&gt; toFunc(rx.functions.Action7&lt;T1,T2,T3,T4,T5,T6,T7&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.Functions.NullFunction&lt;T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,R&gt; returnNull()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Func3 R call(T1, T2, T3) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func9&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,java.lang.Void&gt; toFunc(rx.functions.Action9&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func0&lt;java.lang.Void&gt; toFunc(rx.functions.Action0)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Action1&lt;T&gt; onNextFrom(rx.Observer&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func2&lt;T1,T2,java.lang.Void&gt; toFunc(rx.functions.Action2&lt;T1,T2&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.Func1&lt;? super T,java.lang.Boolean&gt; alwaysFalse()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func9&lt;? super T0,? super T1,? super T2,? super T3,? super T4,? super T5,? super T6,? super T7,? super T8,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.Func6&lt;T1,T2,T3,T4,T5,T6,R&gt; toFunc(rx.functions.Action6&lt;T1,T2,T3,T4,T5,T6&gt;, R)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Actions rx.functions.FuncN&lt;java.lang.Void&gt; toFunc(rx.functions.ActionN)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func8&lt;? super T0,? super T1,? super T2,? super T3,? super T4,? super T5,? super T6,? super T7,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='rx.functions.Functions rx.functions.FuncN&lt;R&gt; fromFunc(rx.functions.Func4&lt;? super T0,? super T1,? super T2,? super T3,? extends R&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
