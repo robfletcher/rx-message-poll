@@ -14,6 +14,7 @@ apply plugin: "application"
 repositories { jcenter() }
 dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
+  compile "org.jetbrains.kotlin:kotlin-reflect:0.12.200"
   compile "com.netflix.rxjava:rxjava-core:0.20.7"
   compile "com.squareup.retrofit:retrofit:1.9.0"
   testCompile "org.spockframework:spock-core:1.0-groovy-2.4"

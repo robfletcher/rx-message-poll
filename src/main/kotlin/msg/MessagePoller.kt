@@ -8,6 +8,8 @@ import rx.schedulers.Schedulers
 import java.io.Closeable
 import java.util.concurrent.TimeUnit.SECONDS
 
+fun <T> List<T>.toObservable() : Observable<T> = Observable.from(this)
+
 public class MessagePoller(private val messageService: MessageService,
                            private val frequencySeconds: Long,
                            private val recipient: String,
@@ -28,7 +30,7 @@ public class MessagePoller(private val messageService: MessageService,
         .flatMap { messageService.recentMessages(10) }
         .doOnError { println("Caught $it") }
         .retry()
-        .flatMap { Observable.from(it) }
+        .flatMap(List<Message>::toObservable)
         .filter { it.isFor(recipient) }
         .distinct()
         .subscribe(subscriber)
